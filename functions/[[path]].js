@@ -1,7 +1,7 @@
 export async function onRequest({ request }) {
 	const url = new URL(request.url)
 
-	const proxyUrl = 'https://sadfhtsd.site'
+	const proxyUrl = 'https://dssgdfr.site'
 	const backendUrl = `${proxyUrl}${url.pathname}`
 
 	const response = await fetch(backendUrl, {
